@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-header,.instagram-body,.instagram-footer{
+    background-color: white;
+}
+.instagram-header{
+    display: flexbox;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+    position: absolute;
+}
+.instagram-body:first-child{
+margin-top: 100%;
+}
+.instagram-body {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+.image-head,.image-footer{
+    display: flex;
+}
+.image-head h3{
+    margin: 1%;
+    color: grey;
+}
+.image-head h3:first-child{
+    width: 95%;
+    color: black;
+}
+.image-body img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.image-footer{
+    margin-bottom: 10%;
+}
+.image-footer p{
+    margin: 1%;
+    text-align: justify;
+}
+
