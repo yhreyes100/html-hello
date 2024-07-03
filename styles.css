@@ -1,9 +1,10 @@
+
 body {
     background-color: grey;
     justify-content: center;
     align-items: center;
 }
-.instagram-header,.instagram-body,.instagram-footer{
+.instagram-header,.instagram-body{
     background-color: white;
 }
 .instagram-header{
@@ -15,8 +16,8 @@ body {
     justify-content: center;
 }
 .instagram-body {
-    width: 40%;
-    height: 40%;
+    width: 500px;
+    height: 400px;
     margin: 0 auto ;
     margin-top: 5%;
 }
@@ -32,9 +33,11 @@ body {
     color: black;
 }
 .image-body img{
-    height: 100%;
-    width: 100%;
+    width: 493px;
+    height: 300px;
     object-fit: cover;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 .image-footer{
     margin-bottom: 10%;
@@ -44,3 +47,6 @@ body {
     text-align: justify;
 }
 
+*{
+    border:1px dashed red ;
+}
