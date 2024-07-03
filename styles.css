@@ -33,7 +33,7 @@ body {
     color: black;
 }
 .image-body img{
-    width: 493px;
+    width: 496px;
     height: 300px;
     object-fit: fill;
     margin-left: 2px;
@@ -45,8 +45,4 @@ body {
 .image-footer p{
     margin: 1%;
     text-align: justify;
-}
-
-*{
-    border:1px dashed red ;
 }
